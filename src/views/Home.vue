@@ -22,9 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El emprendimiento es un fenómeno dinámico que combina creatividad, innovación y estrategia para identificar oportunidades y generar soluciones sostenibles, impactando positivamente en lo económico, social y ambiental. Se distingue por su conexión con la innovación, adaptación al riesgo, generación de valor y transformación cultural. Existen diversos tipos, como el tradicional, social, tecnológico e intraemprendimiento, cada uno enfrentando retos específicos. El emprendedor, figura central, lidera con resiliencia, pensamiento estratégico y motivación, mientras que la empresa coordina recursos para cumplir objetivos y contribuir al desarrollo sostenible. Además, el emprendimiento se analiza desde enfoques ambiental, sociológico y psicológico, destacando la importancia del entorno, las relaciones sociales y las características individuales.
-
-              p.descripcion.mb-4.mb-lg-5.pb-lg-4.text-bold “El verdadero emprendedor no teme al fracaso, sino que lo convierte en el trampolín hacia el éxito.”
+              p.descripcion.mb-4 La unidad aborda el modelo y plan de negocio como herramientas clave para estructurar emprendimientos viables y sostenibles. Explica componentes esenciales como la propuesta de valor, análisis de mercado, y estrategias operativas y financieras. También analiza el emprendimiento sostenible, que combina impacto económico, social y ambiental, y la economía colaborativa, centrada en el uso compartido de recursos. Finalmente, destaca el emprendimiento social como un modelo que prioriza el impacto positivo, promoviendo innovación, inclusión y sostenibilidad económica, con énfasis en la medición de resultados y colaboración intersectorial.
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Emprendimiento social',
+    numeroUnidad: '3',
+    tituloUnidad: 'Emprendimiento, Desarrollo y Modelos de Negocios',
   },
   menuPrincipal: {
     menu: [
@@ -31,19 +31,19 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Definiciones de emprendimiento, emprendedor y empresa',
+        titulo: 'Modelo y plan de negocio',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Emprendedor',
+            titulo: 'Modelo de negocio',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Empresa',
+            titulo: 'Plan de negocio',
             hash: 't_1_2',
           },
         ],
@@ -52,14 +52,20 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Emprendimiento, motivación y liderazgo',
+        titulo: 'El pensamiento y comportamiento emprendedor',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Liderazgo en el emprendimiento',
+            titulo: 'Emprendimiento sostenible',
             hash: 't_2_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '2.2',
+            titulo: 'Economía colaborativa',
+            hash: 't_2_2',
           },
         ],
       },
@@ -67,26 +73,20 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Origen y desarrollo del espíritu empresarial',
+        titulo: '¿Qué es el emprendimiento social como modelo de negocio?',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Enfoque ambiental',
+            titulo: 'Fundamentos del emprendimiento social',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Enfoque sociológico',
+            titulo: 'Características del Emprendimiento Social',
             hash: 't_3_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.3',
-            titulo: 'Enfoque psicológico',
-            hash: 't_3_3',
           },
         ],
       },
@@ -128,135 +128,160 @@ export default {
   referencias: [
     {
       referencia:
-        'Ballvé, A. M. & Fontana, A. (2021). El propósito de la empresa: hacia un liderazgo directivo centrado en el bien común. LID Editorial Empresarial.',
-      link: 'Elibro.net',
+        'Bulchand, J. & Melián, S. (2018). La revolución de la economía colaborativa (1 ed.). LID Editorial España.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/269989',
     },
     {
       referencia:
-        'Bolivar Palechor. (2019, 22 enero). Por qué PENSAR en grande | Mentalidad | Liderazgo | Emprendimiento | Motivación [Vídeo]. YouTube.',
-      link: 'https://www.youtube.com/watch?v=l606Ff3YRX0',
+        'Droznes, L. (2005). Manual para un plan de negocios. Unitexto.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/35155',
     },
     {
       referencia:
-        'Gomez, M. (2024). Pirámide de Maslow: qué es, ejemplos y cómo usarla.',
-      link: 'https://blog.hubspot.es/marketing/piramide-maslow-marketing',
+        'Elson, C. (2021). Nuevos modelos de negocio: emprendimiento en la era de la tecnología. Editorial UOC.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/209985',
     },
     {
       referencia:
-        'Herruzo-Gómez, E., Hernández-Sánchez, B. R., & Cardella, G. M. (2019). Emprendimiento e innovación: oportunidades para todos. Dykinson.',
-      link: 'Elibro.net',
+        'Epstein, M. J. (2009). Sostenibilidad empresarial: administración y medición de los impactos sociales, ambientes y economía. Ecoe Ediciones.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/69103',
     },
     {
       referencia:
-        'Il Sung Park, S., & Duarte Masi, S. (2015). El perfil del emprendedor y los estudios relacionados a los emprendedores Iberoamericanos. Revista Internacional de Investigación en Ciencias Sociales, 11(2), 291-314.',
-      link: 'https://doi.org/10.18004/riics.2015.diciembre.291-314',
+        'Hernández-Sánchez, B. R., Cardella, G. M. & Sánchez García, J. C. (2023). Persona, empresa, sociedad y emprendimiento en el contexto de los ODS (1 ed.). Dykinson.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/229746',
     },
     {
       referencia:
-        'Negocios En Tu Mundo. (2020, 19 febrero). Emprendimiento y salud mental - [Negocios en Tm]® [Vídeo]. YouTube.',
-      link: 'https://www.youtube.com/watch?v=svnc2qzRJAA',
+        'Laverde Rodríguez, C. A., Sellamén Garzón, A. & López Naranjo, H. A. (2022). Tendencias en la economía colaborativa: una aproximación analítica (1 ed.). Ediciones USTA.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/224504',
     },
     {
       referencia:
-        'Salcedo Camacho, P. D. (2021). Programa emprendedor. Universidad Privada del Valle.',
-      link: 'Elibro.net',
+        'Monguí Pinentel, J., Yepes González, E. G. & Baquero Guerrero, E. L. (2023). Una mirada al emprendimiento social en Colombia (1 ed.). Corporación Universitaria Minuto de Dios.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/232108',
+    },
+    {
+      referencia:
+        'Pedraza Rendón, O. H. (2015). Modelo del plan de negocios: para la micro y pequeña empresa. Grupo Editorial Patria.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/39387',
+    },
+    {
+      referencia:
+        'Pérez Pertuz, J., Gómez-Caicedo, M. I. & López López, M. K. (2024). Nuevos modelos de negocios (1 ed.). Fundación Universitaria Los Libertadores.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/277315',
+    },
+    {
+      referencia:
+        'Rinaudo Mannucci, M. E. (2024). Sostenibilidad para el emprendimiento. Guía para agentes de cambio que diseñan presentes y futuros posibles para todos (1 ed.). Editorial Universidad EAN.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/274734',
+    },
+    {
+      referencia:
+        'Uribe Palacios, V. J. (2021). Manual del emprendedor: la caja de herramientas para crear tu modelo y plan de negocios. Editorial Uniagustiniana.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/199380',
+    },
+    {
+      referencia:
+        'Uribe, J. (2017). Experiencias de emprendimiento social en Iberoamérica. Editorial Universidad de Almería.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/44577',
     },
   ],
   glosario: [
     {
-      termino: 'Adaptabilidad',
+      termino: 'Autogestión',
       significado:
-        'Habilidad de ajustar estrategias y acciones frente a cambios en el entorno o condiciones imprevistas.',
+        'Capacidad de planificar y ejecutar acciones independientemente, optimizando recursos personales y organizacionales.',
     },
     {
-      termino: 'Capital Social',
+      termino: 'Capital humano',
       significado:
-        'Recursos accesibles a través de redes de relaciones personales o profesionales, fundamentales para emprender.',
+        'Conjunto de habilidades, conocimientos y experiencias que las personas aportan a una organización para su desarrollo.',
     },
     {
-      termino: 'Creatividad',
+      termino: 'Colaboración',
       significado:
-        'Capacidad de generar ideas novedosas y originales para resolver problemas o aprovechar oportunidades.',
+        'Proceso de trabajo conjunto entre individuos o entidades para alcanzar metas comunes de forma eficiente.',
     },
     {
-      termino: 'Ecosistema Emprendedor',
+      termino: 'Comunidad',
       significado:
-        'Conjunto de actores, instituciones y recursos que facilitan o dificultan la actividad empresarial en un contexto específico.',
+        'Grupo de personas que comparten intereses, objetivos o un entorno, clave en el impacto social del emprendimiento.',
     },
     {
-      termino: 'Emprendedor',
+      termino: 'Diversificación',
       significado:
-        'Persona que identifica oportunidades, asume riesgos y lidera proyectos que transforman ideas en realidades.',
+        'Estrategia empresarial que busca ampliar fuentes de ingresos o áreas de acción para reducir riesgos.',
     },
     {
-      termino: 'Emprendimiento',
+      termino: 'Escalabilidad',
       significado:
-        'Proceso de identificar, desarrollar y ejecutar ideas innovadoras que generan valor económico, social o ambiental.',
+        'Capacidad de un modelo de negocio para crecer en alcance o ingresos sin un aumento proporcional en los costos.',
     },
     {
-      termino: 'Empresa',
+      termino: 'Estrategia',
       significado:
-        'Organización que coordina recursos para producir bienes o servicios y satisfacer necesidades del mercado.',
+        'Plan estructurado diseñado para alcanzar objetivos específicos mediante el uso eficiente de recursos disponibles.',
     },
     {
-      termino: 'Innovación',
+      termino: 'Financiamiento de impacto',
       significado:
-        'Implementación de ideas, productos o procesos nuevos que aportan valor significativo al mercado o la sociedad.',
+        'Inversiones dirigidas a generar beneficios sociales y ambientales junto con rendimientos financieros.',
     },
     {
-      termino: 'Inteligencia Emocional',
+      termino: 'Impacto social',
       significado:
-        'Capacidad para gestionar emociones propias y comprender las de los demás, favoreciendo relaciones interpersonales efectivas.',
+        'Efectos positivos generados por acciones empresariales en comunidades y grupos vulnerables.',
     },
     {
-      termino: 'Intraemprendimiento',
+      termino: 'Inclusión social',
       significado:
-        'Desarrollo de proyectos innovadores dentro de organizaciones existentes, impulsados por empleados emprendedores.',
+        'Proceso de integrar a individuos o grupos marginados en actividades económicas, sociales y culturales.',
     },
     {
-      termino: 'Liderazgo',
+      termino: 'Innovación disruptiva',
       significado:
-        'Habilidad de influir, motivar y guiar a otros hacia el logro de objetivos comunes.',
+        'Cambio radical en un sector o mercado mediante la introducción de nuevas tecnologías o modelos de negocio.',
     },
     {
-      termino: 'Modelo de Negocio',
+      termino: 'Intersectorialidad',
       significado:
-        'Estrategia que define cómo una empresa crea, entrega y captura valor en su mercado.',
+        'Colaboración entre distintos sectores, como empresas, gobiernos y ONGs, para abordar problemáticas complejas.',
     },
     {
-      termino: 'Motivación',
+      termino: 'Justicia social',
       significado:
-        'Impulso interno o externo que inspira a una persona a actuar y alcanzar metas específicas.',
+        'Principio que busca la equidad en la distribución de recursos, derechos y oportunidades.',
     },
     {
-      termino: 'Proactividad',
+      termino: 'Medición de impacto',
       significado:
-        'Actitud de anticiparse a los problemas o necesidades, buscando soluciones antes de que ocurran.',
+        'Proceso de evaluación que identifica y cuantifica los efectos sociales o ambientales de una iniciativa.',
     },
     {
-      termino: 'Resiliencia',
+      termino: 'Sostenibilidad ambiental',
       significado:
-        'Capacidad de superar adversidades, aprender de ellas y seguir adelante con mayor fortaleza.',
+        'Prácticas que garantizan el uso responsable de los recursos naturales para preservar el medio ambiente.',
     },
     {
-      termino: 'Responsabilidad Social Corporativa',
+      termino: 'Sostenibilidad económica',
       significado:
-        'Prácticas empresariales que buscan un impacto positivo en la sociedad y el medio ambiente.',
+        'Capacidad de mantener operaciones financieras estables a largo plazo sin comprometer objetivos sociales o ambientales.',
     },
     {
-      termino: 'Sostenibilidad',
+      termino: 'Tecnología social',
       significado:
-        'Desarrollo que satisface las necesidades actuales sin comprometer las capacidades de las futuras generaciones.',
+        'Innovaciones diseñadas para resolver problemas específicos en comunidades, priorizando la accesibilidad y el impacto positivo.',
     },
     {
-      termino: 'Toma de Riesgos',
+      termino: 'Triple línea base',
       significado:
-        'Disposición para asumir decisiones con incertidumbre calculada, con el objetivo de generar valor.',
+        'Marco de evaluación que mide el desempeño empresarial en términos económicos, sociales y ambientales.',
     },
     {
-      termino: 'Visión',
+      termino: 'Valor compartido',
       significado:
-        'Proyección estratégica de lo que una organización aspira alcanzar en el largo plazo.',
+        'Estrategia empresarial que combina la creación de beneficios económicos con la generación de impacto social positivo.',
     },
   ],
   complementario: [

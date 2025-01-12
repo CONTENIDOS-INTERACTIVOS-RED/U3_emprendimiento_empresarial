@@ -11,8 +11,8 @@
           button.audio__btn(v-else @click="pause")
             img(src="@/assets/template/audio-new.svg")
       .col
-        .d-flex.justify-content-between.mb-4
-          .tarjeta-audio__texto.text-smaller.mb-2(v-html="texto")
+        .d-flex.justify-content-between.mb-3
+          .tarjeta-audio__texto.text-smaller.mb-2.me-2(v-html="texto")
           .audio.position-relative(style="width: 36px" @mouseover.once="$emit('audio-hover')")
             .spinner-border.spinner-border-sm(v-if="!audioCanPlay" role="status")
               span.visually-hidden Loading..
@@ -72,17 +72,17 @@ export default {
 
 <style lang="sass">
 .bg-btn
-  background-color: red !important
+  background-color: #FE8953 !important
 .tarjeta-audio
-  border-color: red
+  border-color: #FE8953
   .tarjeta-audio__input
     input[type=range]
-      background: rgba(red, 0.2)
-      background-image: linear-gradient(red, red)
+      background: rgba(#FE8953, 0.2)
+      background-image: linear-gradient(#FE8953, #FE8953)
       &::-webkit-slider-runnable-track
-        background: rgba(red, 0.2)
+        background: rgba(#FE8953, 0.2)
       &::-webkit-slider-thumb
-        background-color: red
+        background-color: #FE8953
       &::-moz-range-thumb
-        background-color: red
+        background-color: #FE8953
 </style>

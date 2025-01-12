@@ -3,300 +3,274 @@
   BannerInterno(:subTitulo="'2. Emprendimiento, motivación y liderazgo'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5.mx-0
-      .col-12.col-xl-8.d-flex.align-items-center.bg-amarillo.p-4(data-aos="fade-right")
-        p.mb-0(data-aos="fade-up") La motivación es un elemento fundamental en el emprendimiento, actuando como el motor que impulsa a los emprendedores a transformar sus ideas en proyectos viables y sostenibles. Además de ser un estímulo inicial, la motivación es clave para mantener la resiliencia y la determinación ante los desafíos. Comprender cómo opera la motivación permite desarrollar un enfoque más sólido hacia las metas personales y profesionales.
-      .d-none.d-xl-block.col-4.px-0(data-aos="fade-left")
-        img.h-100(src='@/assets/curso/unidad/img-35.png', alt='Texto que describa la imagen')
-
-    p.text-bold.mb-4 Tipos de motivación en el emprendimiento
-    p.mb-4 La motivación en el emprendimiento puede clasificarse en intrínseca y extrínseca, ambas desempeñando un papel crucial en el impulso de los emprendedores.
-
-    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width.mb-4
-      div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-5
-              figure
-                img(src='@/assets/curso/unidad/img-36.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold.mb-4 Intrínseca
-              p Proviene del deseo interno de realizar actividades por placer, propósito o satisfacción personal. <br>Un emprendedor motivado por resolver un problema social o innovar en su campo de interés.
-
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .d-none.d-lg-block.col-md-6.col-lg-5
-              figure
-                img(src='@/assets/curso/unidad/img-37.png', alt='Texto que describa la imagen')
-            .col-md-12.col-lg-7.mb-4.mb-md-0
-              p.text-bold.mb-4 Extrínseca
-              p Se basa en incentivos externos, como ganancias económicas, prestigio o independencia financiera. <br>Un emprendedor que busca reconocimiento o libertad económica a través de su negocio.
-
-
-    p.mb-4 Estudios como los de Deci y Ryan (1985) destacan que la motivación intrínseca tiende a ser más sostenible, ya que conecta profundamente con los valores y objetivos del emprendedor.
-    h2 Factores que influyen en la motivación
-    p.mb-4 El éxito del emprendimiento depende de factores personales y contextuales que influyen en la motivación y estrategia del emprendedor.
     .row.mb-4
-      .col-10.col-md-8.col-lg-6.mb-4.mx-auto(data-aos="fade-right")
-        div.custom-image-card.rounded-8px
-          img.mb-4(src='@/assets/curso/unidad/img-38.png', alt='Texto que describa la imagen')
-          div.mb-4.px-4
-            p.text-bold.text-center Personales
-            p.text-small.px-4.mb-1 <b>Metas y valores:</b> objetivos claros alineados con valores personales.
-            p.text-small.px-4.mb-1 <b>Pasión:</b> interés genuino por el sector o problema abordado.
-            p.text-small.px-4.mb-1 <b>Experiencias previas:</b> aprendizajes que moldean la visión y la estrategia del emprendedor.
-      .col-10.col-md-8.col-lg-6.mb-4.mx-auto(data-aos="fade-left")
-        div.custom-image-card.rounded-8px
-          img.mb-4(src='@/assets/curso/unidad/img-39.png', alt='Texto que describa la imagen')
-          div.mb-4.px-4
-            p.text-bold.text-center Contextuales
-            p.text-small.px-4.mb-1 <b>Entorno social:</b> apoyo familiar, redes de contactos y comunidades emprendedoras.
-            p.text-small.px-4.mb-1 <b>Económico:</b> acceso a recursos como financiamiento y mercados potenciales.
-            p.text-small.px-4.mb-1 <b>Cultural:</b> valoración de la innovación y el emprendimiento en la sociedad.
-            p.text-small.px-4.mb-1 <b>Políticas públicas:</b> incentivos fiscales y programas de formación.
+      .col-8.col-md-6.col-lg-4.mx-auto(data-aos="fade-right")
+        .bg-rojo-claro.p-4.h-100
+          span El emprendimiento sostenible y la economía colaborativa son conceptos que están redefiniendo la forma en que se crean y gestionan los negocios en un contexto global que exige mayor responsabilidad social, ambiental y económica.
+      .col-3.d-none.d-lg-block(data-aos="fade-up")
+        img(src='@/assets/curso/unidad/img-24.png', alt='Texto que describa la imagen')
 
-    h2 Teoría de las necesidades de Maslow (1943)
-    p.mb-4  Esta teoría establece una jerarquía de necesidades, desde las básicas (seguridad económica) hasta las superiores (autorrealización). En el emprendimiento, la autorrealización se refleja en el deseo de crear algo significativo, generar impacto o alcanzar el éxito personal y profesional.
-    .row.mb-4 
-      .col-6.col-md-4.mb-4.mx-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Necesidades básicas:
-          span.text-small Seguridad económica, estabilidad financiera.
-      .col-6.col-md-4.mb-4.mx-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Necesidades de seguridad:
+      .col-8.col-md-6.col-lg-4.mx-auto(data-aos="fade-left")
+        .bg-azul.p-4.h-100
+          span Ambos enfoques se complementan y ofrecen un marco para desarrollar modelos de negocio que no solo generen valor económico, sino que también contribuyan al bienestar de la sociedad y al cuidado del medio ambiente. Entender y aplicar estos conceptos te permite adaptarte a las tendencias del mercado actual, al mismo tiempo que te posiciona como un agente de cambio en tu sector.
 
-          span.text-small Establecer un negocio rentable y sostenible
-      .col-6.col-md-4.mb-4.mx-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Necesidades sociales:
-
-          span.text-small Construir redes de apoyo y colaborar con comunidades.
-      .col-6.col-md-4.mb-4.ms-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Necesidades de estima:
-
-          span.text-small Lograr reconocimiento y respetabilidad en el sector 
-      .col-6.col-md-4.mb-4.me-auto(data-aos="fade-up")
-        .bg-verde-claro.p-4.text-center.h-100
-          p.text-bold.mb-2.text-small Autorrealización :
-
-          span.text-small Crear proyectos innovadores y generar impacto en la sociedad. 
-
-    p.mb-4 La motivación está intrínsecamente conectada con el liderazgo, ya que un emprendedor no solo debe mantenerse motivado, sino también inspirar y dirigir a su equipo. Un líder motivado fomenta un ambiente de colaboración, creatividad y compromiso, potenciando las capacidades individuales y colectivas. Así, el liderazgo transformacional, que combina visión estratégica con empatía y propósito, se convierte en una herramienta clave para maximizar el impacto del emprendimiento.
-    p.mb-3 <b>Figura 1.</b> Pirámide de Maslow
-    .row.mb-4
-      .col-10.mx-auto(data-aos="fade-right")
-        img(src='@/assets/curso/unidad/img-40.png', alt='Texto que describa la imagen')
 
     .row.mb-4
-      .col-12.col-xl-7(data-aos="fade-right")
-        p.text-bold.mb-4 Teoría de la autodeterminación y su relevancia en el emprendimiento
-        p.mb-4 La teoría de la autodeterminación de Deci y Ryan (1985) proporciona una base sólida para comprender cómo la motivación intrínseca impulsa a los emprendedores en su camino. Esta teoría identifica tres necesidades psicológicas fundamentales que favorecen la motivación intrínseca:
-        .bg-amarillo.p-4
-          p <b>Autonomía:</b> sentir que tienes control sobre tus decisiones y acciones.
-          p <b>Competencia:</b> percibir que cuentas con las habilidades y recursos necesarios para alcanzar tus objetivos.
-          p <b>Conexión social:</b> establecer relaciones significativas y recibir apoyo del entorno.
-      .col-5.d-none.d-xl-block(data-aos="fade-left")
-        img(src='@/assets/curso/unidad/img-41.png', alt='Texto que describa la imagen')
+      .col-12.col-md-10.col-lg-8.mx-auto(data-aos="fade-up")
 
-    p.mb-5 Cuando estas necesidades están satisfechas, los emprendedores experimentan un mayor nivel de compromiso y resiliencia, factores esenciales para perseverar frente a los retos del emprendimiento.
+        .rounded.shadow.p-3.py-lg-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/componentes/link-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-3 Emprendimiento sostenible y economía colaborativa 
+                  p.text-small Para profundizar en el emprendimiento sostenible y la economía colaborativa, se recomienda consultar el siguiente recurso:
+                .col-sm-auto
+                  a.download-btn.boton.bg-azul-2.text-white(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/69103" target="_blank")
+                    span.text-small Ir al sitio
+                    i.fas.fa-arrow-right
 
-    .bg-fondo-2.bg-full-width
-      .px-5.pb-md-3.py-4
-        
-        p.text-bold.mb-4 La motivación en las etapas del emprendimiento
-        p.mb-4 La motivación desempeña un papel crucial en todas las fases del emprendimiento:
-
-        .row.mb-4.justify-content-center 
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-42.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Inicio
-              p.px-1.text-small.mb-0.d-flex.text-center Superar el miedo al fracaso, tomar decisiones iniciales y dar el primer paso hacia la realización del proyecto. 
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-43.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Desarrollo y crecimiento
-              p.px-1.text-small.mb-0.d-flex.text-center Mantener el compromiso frente a desafíos como la competencia, la falta de recursos o los cambios del mercado.
-          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-44.svg', style="width: 80px")
-              p.text-bold.mb-4.text-center Consolidación
-              p.px-1.text-small.mb-0.d-flex.text-center Continuar innovando, identificar nuevas oportunidades y asegurar la sostenibilidad del proyecto.
-
-    p.mb-4 Las estrategias para cultivar la motivación en el emprendimiento son:
-
-    ImagenInfografica.color-secundario.mb-4
-      template(v-slot:imagen)
-        figure
-          img(src='@/assets/curso/unidad/img-45.png', alt='Texto que describa la imagen')
-
-      .tarjeta.bg-white.p-4(x="31%" y="55%" numero="+")
-        .h5.mb-2 Reflexiona sobre tus metas personales
-        p Identifica qué te impulsa a emprender y conecta emocionalmente con tu proyecto.
-      .tarjeta.bg-white.p-4(x="37%" y="33%" numero="+")
-        .h5.mb-2 Rodéate de apoyo
-        p Trabaja con personas que compartan tus valores y te brinden respaldo emocional y profesional.
-
-      .tarjeta.bg-white.p-4(x="50%" y="33%" numero="+")
-        .h5.mb-2 Celebra logros
-        p Reconoce y disfruta cada avance, por pequeño que sea, para renovar energía y mantener una actitud positiva.
-      .tarjeta.bg-white.p-4(x="63.5%" y="33%" numero="+")
-        .h5.mb-2 Establece metas claras y alcanzables
-        p - A corto plazo: Identifica objetivos inmediatos que permitan medir el progreso. <br>- A largo plazo: Proyecta metas que representen tu visión de éxito.
-      .tarjeta.bg-white.p-4(x="70%" y="55%" numero="+")
-        .h5.mb-2 Desarrolla resiliencia
-        p Adopta una mentalidad de aprendizaje para transformar los fracasos en oportunidades de crecimiento.
-
-
-    p.mb-4 La motivación está directamente vinculada con el éxito en el emprendimiento. Los emprendedores motivados destacan por su persistencia, creatividad y enfoque estratégico en la toma de decisiones. Además, la motivación intrínseca actúa como un catalizador que no solo impulsa al emprendedor, sino que también inspira a socios, empleados e inversionistas a comprometerse con el proyecto.
 
     #t_2_1.titulo-segundo
       div.d-flex
         span.me-3 2.1  
-        h2 Liderazgo en el emprendimiento
+        h2 Emprendimiento sostenible
 
-    p.mb-4 El liderazgo en el emprendimiento es una competencia fundamental para transformar ideas en realidades sostenibles. En un entorno empresarial lleno de incertidumbre, este liderazgo combina habilidades estratégicas, tácticas e interpersonales para guiar a un equipo hacia el logro de objetivos comunes. No se limita al manejo operativo, sino que incluye la formulación de una visión clara y la adaptación constante a los cambios del entorno.
-    p.text-bold.mb-4 Las características clave del liderazgo emprendedor son:
+    p.mb-4 El emprendimiento sostenible se posiciona como una transformación empresarial esencial en el siglo XXI, respondiendo a retos globales como el cambio climático, la pérdida de biodiversidad, la desigualdad social y la escasez de recursos. Este modelo se enfoca en crear negocios que generen valor económico sin comprometer la estabilidad social y ambiental, redefiniendo el éxito empresarial hacia un bienestar integral y prosperidad a largo plazo.
 
-    .row.position-relative.mb-5.py-4.bg-fondo-1.bg-full-width.mb-4
-      div.px-4.px-md-5.py-md-3
-        SlyderA(tipo="b").bg-white
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Visión inspiradora
-              p - Define el propósito del proyecto y actúa como referencia para decisiones estratégicas.
-              p - Inspira confianza y compromiso en el equipo, socios e inversionistas.
-              p - Debe ser ambiciosa, alcanzable y capaz de evolucionar con el tiempo.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-46.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Toma de decisiones bajo presión
-              p - Requiere equilibrio entre análisis riguroso e intuición. 
-              p - Considera riesgos, beneficios e implicaciones a largo plazo.
-              p - Debe ser ágil y adaptable en mercados dinámicos.
+    .row.mb-5
+      .d-none.d-xl-block.col-xl-5.mx-auto.mt-4.mt-xl-0(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-25.png', alt='Texto que describa la imagen')  
+      .col-12.col-xl-7.d-flex.flex-column
+        p.mb-4 Triple línea base  
+        .d-flex.align-items-start.bg-azul.p-4(data-aos="fade-left")
+          img.me-3(style="width: 90px" src='@/assets/curso/unidad/img-26.svg', alt='Texto que describa la imagen')
+          .d-flex.flex-column
+            p.pe-xl-3.mb-0(data-aos="fade-up")  Evalúa el desempeño en tres áreas clave: económica, social y ambiental. Este enfoque garantiza que las decisiones empresariales sean éticas y estratégicas, creando resiliencia y adaptabilidad frente a las exigencias del mercado y reguladores.    
 
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-47.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Capacidad de innovación 
-              p - Fomenta ideas creativas y explora nuevas oportunidades.
-              p - Integra la innovación en la estrategia general del proyecto.
-              p - Asigna recursos adecuados y elimina barreras para la creatividad.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-48.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Resiliencia
-              p - Permite enfrentar adversidades y aprender de fracasos.
-              p - Fomenta un ambiente de trabajo adaptable y motivado.
-              p - Crea una cultura organizacional de aprendizaje continuo.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-49.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Inteligencia emocional
-              p - Gestiona emociones propias y comprende las de los demás.
-              p - Construye relaciones sólidas basadas en empatía y confianza.
-              p - Facilita la colaboración en equipos diversos.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-50.png', alt='Texto que describa la imagen')
-          .row.p-4.px-md-5.py-lg-5.justify-content-between
-            .col-md-12.col-lg-7.mb-4.mb-md-0.mx-auto
-              p.text-bold.mb-4 Gestión de redes externas
-              p - Establece relaciones con clientes, proveedores, inversionistas y socios clave.
-              p - Facilita el acceso a recursos y retroalimentación.
-              p - Requiere habilidades de negociación y persuasión.
-            .d-none.d-lg-block.col-md-6.col-lg-4.mx-auto
-              figure
-                img(src='@/assets/curso/unidad/img-51.png', alt='Texto que describa la imagen')
-
-    p.text-bold.mb-4 Roles del liderazgo en las etapas del emprendimiento
-    p.mb-4 El liderazgo en el emprendimiento abarca roles clave que guían el desarrollo del proyecto a lo largo de sus etapas.
-
-    .row.mb-4.justify-content-center 
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-52.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Fase inicial
-          p.px-1.text-small.mb-0.d-flex.text-center Conceptualiza el proyecto y define la visión. Forma un equipo sólido y busca recursos estratégicos.  
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-53.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Etapa de desarrollo
-          p.px-1.text-small.mb-0.d-flex.text-center Implementa estrategias y supervisa operativamente. Cumple objetivos a corto y mediano plazo.
-      .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
-        .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
-          img.mx-auto.mb-4(src='@/assets/curso/unidad/img-54.svg', style="width: 80px")
-          p.text-bold.mb-4.text-center Fase de consolidación
-          p.px-1.text-small.mb-0.d-flex.text-center Garantiza la sostenibilidad del proyecto. Promueve la innovación y se adapta a nuevas demandas del mercado,
-
-    p.text-bold.mb-4 Estilos de liderazgo en el emprendimiento
-    p.mb-4 En el emprendimiento, los estilos de liderazgo juegan un papel fundamental en la dirección y éxito de los proyectos.
-
-    .row.mb-4 
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Transformacional
-          span.text-small Inspira a los equipos y fomenta la creatividad
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Adaptativo
-          span.text-small Ajusta estrategias rapidamente en mercados cambiantes
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Democrático
-          span.text-small Fomenta la participación activa en la toma de decisiones.
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Orientados a resultados
-          span.text-small Enfocado en metas claras y su cumplimiento.
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Carismático
-          span.text-small Motiva mediante la comunicación y la personalidad del líder.
-      .col-6.col-md-4.mb-4(data-aos="fade-up")
-        .bg-amarillo.p-4.text-center.h-100 
-          p.text-bold.mb-2.text-small Autocrático (moderado)
-          span.text-small Útil en situaciones de alta presión que requieren decisiones rápidas.
-
-    .bg-rojo-claro.bg-full-width.mb-5
+    .bg-fondo-3.bg-full-width
       .px-5.pb-md-3.py-4
-        .row.mb-4
-          .d-flex.align-items-center
-            div.d-flex.align-items-center
-              img.me-4(style="width: 90px" src='@/assets/curso/unidad/img-55.svg', alt='Texto que describa la imagen')
-              .d-flex.flex-column
-                p.text-bold.mb-2 Importancia del liderazgo emprendedor
-                p.mb-0 El liderazgo en el emprendimiento es multifacético y esencial para enfrentar desafíos, aprovechar oportunidades y generar impacto positivo en el mercado y la sociedad. Combina visión estratégica, innovación, resiliencia, inteligencia emocional y habilidades de gestión. Este tipo de liderazgo no solo asegura el éxito del proyecto, sino que también contribuye al progreso económico y social, consolidando empresas sostenibles en un entorno globalizado y competitivo.
 
-    .bg-full-width.border-top-9-azul
-      .px-4.px-md-5.pt-5.pb-0
-        h2 Material complementario
+        p.mb-4 Las dimensiones del emprendimiento sostenible son:
+        .row.mb-4
+          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-right")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-27.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Económica
+                p.text-small.px-4.text-center.pb-2 Creación de valor a largo plazo mediante modelos financieramente viables que integren prácticas responsables, como tecnologías limpias o materiales ecológicos.
+          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-up")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-28.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Ambiental
+                p.text-small.px-4.text-center.pb-2 Minimización de impactos negativos mediante reducción de emisiones, uso eficiente de recursos y regeneración del ecosistema (e.g., técnicas de agroforestería).
+          .col-10.col-md-6.col-lg-4.mb-4.mx-auto(data-aos="fade-left")
+            div.custom-image-card.rounded-8px
+              img.mb-4(src='@/assets/curso/unidad/img-29.png', alt='Texto que describa la imagen')
+              div.mb-4
+                p.text-bold.text-center Social
+                p.text-small.px-4.text-center.pb-2 Promoción de igualdad, inclusión y justicia social, con iniciativas que mejoren la calidad de vida de comunidades vulnerables (e.g., empresas textiles que colaboran con artesanos locales).
+
+    p.mb-4 La innovación es un motor clave en el emprendimiento sostenible, con enfoques como:
+
+    .row.mb-4
+      .col-10.mx-auto
         .row
-          .col-12.col-md-6.col-lg-8
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/51702") Palmero Cantero, F., et al. (2016). Manual de teorías emocionales y motivacionales. Universitat Jaume I.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/book.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/222463") Valencia Tovar, Á. (2015). El liderazgo, clave del éxito en la empresa. CESA.
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=eFbmc65F47s") Emprendimiento y Motivación. (2022). Los mejores pasos para ser un EMPRENDEDOR [Vídeo]
-            p.d-flex.my-4
-              img.me-3.mb-auto.mt-1(src='@/assets/componentes/youtube-icon.svg' :style="{'max-width':'16px'}")
-              a.text-small.text-primary(target="_blank", href="https://www.youtube.com/watch?v=_rPJ_eZzlcw") pascualbravovirtual. (2021). Liderazgo y trabajo en equipo [Vídeo]
-          .col-12.col-md-6.col-lg-3
-            figure
-              img(src='@/assets/componentes/material-complementario.svg', alt='Imagen de material complementario')
+          .col-12.col-md-6.mx-auto.d-flex.flex-column(data-aos="fade-right")
+            .bg-rojo.px-4.py-3.px-xl-5.mb-0(style="border-radius: 16px 16px 0px 0px")
+              p.text-bold.mb-0.text-center Economía circular
+            .bg-rojo-claro.p-4.px-xl-5.h-100.text-center(style="border-radius: 0px 0px 16px 16px")
+              span Prolongación del ciclo de vida de productos mediante reutilización y reciclaje (Patagonia y su servicio de reparación de ropa).
+          .col-12.col-md-6.mx-auto.d-flex.flex-column(data-aos="fade-right")
+            .bg-azul.px-4.py-3.px-xl-5.mb-0(style="border-radius: 16px 16px 0px 0px")
+              p.text-bold.mb-0.text-center Consumo responsable
+            .bg-azul-claro.p-4.px-xl-5.h-100.text-center(style="border-radius: 0px 0px 16px 16px")
+              span Crecimiento en la demanda de productos que reflejen principios éticos y ambientales, como alimentos orgánicos y de comercio justo.
+
+    p.text-bold.mb-4 Relación con los Objetivos de Desarrollo Sostenible (ODS)
+    p.mb-4 El emprendimiento sostenible se alinea con los ODS de la ONU, proporcionando un marco para abordar problemas globales como la pobreza y el cambio climático. Esto no solo mejora la reputación de las empresas, sino que también atrae inversores interesados en generar impacto positivo.
+    p.mb-4 La colaboración intersectorial y una regulación adecuada son pilares fundamentales para abordar desafíos complejos en el ámbito empresarial y social. 
+
+    .row.mb-2
+      .col-12.col-md-4.col-lg-3(data-aos="fade-right")
+        .bg-amarillo-3.p-4.mb-0.text-center.h-100
+          p.mb-0.text-bold Colaboración intersectorial
+      .col-12.col-md-8.col-lg-9(data-aos="fade-left")
+        .bg-amarillo-3-claro.p-4.text-center.h-100
+          span Alianzas estratégicas entre empresas, gobiernos y ONG  para abordar problemas complejos, compartiendo recursos y conocimientos.
+
+    .row.mb-4
+      .col-12.col-md-4.col-lg-3(data-aos="fade-right")
+        .bg-amarillo-2.p-4.mb-0.text-center.h-100.d-flex.justify-content-center.align-items-center
+          p.mb-0.text-bold Marco normativo
+      .col-12.col-md-8.col-lg-9(data-aos="fade-left")
+        .bg-amarillo.p-4.text-center.h-100
+          span Políticas públicas que incentivan prácticas responsables, como subsidios para energías renovables y sanciones para empresas contaminantes. Cumplir con estas normativas no solo evita sanciones, sino que también fortalece la competitividad empresarial.
+
+    h2 Herramientas y oportunidades financieras
+    p.mb-4 El emprendimiento sostenible está atrayendo la atención de inversores y programas gubernamentales que ofrecen:
+    
+    .row.mb-4
+      .col-4.d-none.d-lg-block.ms-lg-auto.me-lg-0(data-aos="fade-right")
+        img(src='@/assets/curso/unidad/img-30.png', alt='Texto que describa la imagen')
+      .col-10.col-lg-6.mx-auto(data-aos="fade-left")
+        .bg-gris.p-4.h-100
+          div.d-flex.mb-4
+            p.me-3.mb-0 •
+            p.mb-0 Fondos especializados en proyectos sostenibles.
+          div.d-flex.mb-4
+            p.me-3.mb-0 •
+            p.mb-0 Financiamiento y capacitación para emprendedores que adopten prácticas responsables.
+          
+    h2 Desafíos y tecnologías emergentes
+    p.mb-4 El emprendimiento sostenible enfrenta retos como las inversiones iniciales y la comunicación del valor de la sostenibilidad en mercados sensibles al precio. Sin embargo, herramientas como el big data, la inteligencia artificial y el IoT están optimizando procesos y mejorando la sostenibilidad (e.g., monitoreo energético en tiempo real).
+    
+    .row.mb-4
+      .col-10.col-lg-7.mx-auto.ms-lg-auto.me-lg-0(data-aos="fade-right")
+        .bg-gris.p-4.h-100
+          span El emprendimiento sostenible no es solo una tendencia, sino un modelo empresarial que equilibra crecimiento económico con responsabilidad social y ambiental. Adoptarlo no solo asegura relevancia en el mercado, sino que también contribuye al bienestar colectivo y posiciona a las empresas como líderes y agentes de cambio.
+      .col-4.d-none.d-lg-block(data-aos="fade-left")
+        img(src='@/assets/curso/unidad/img-31.png', alt='Texto que describa la imagen')
+
+    .row.mb-5
+      .col-12.col-md-10.col-lg-8.mx-auto(data-aos="fade-up")
+
+        .rounded.shadow.p-3.py-lg-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/componentes/link-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-3 Sostenibilidad para el emprendimiento
+                  p.text-small Para profundizar en la sostenibilidad para el emprendimiento, se recomienda consultar el siguiente recurso:
+                .col-sm-auto
+                  a.download-btn.boton.bg-azul-2.text-white(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274734" target="_blank")
+                    span.text-small Ir al sitio
+                    i.fas.fa-arrow-right
+
+    #t_2_2.titulo-segundo
+      div.d-flex
+        span.me-3 2.2  
+        h2 Economía colaborativa
+
+    p.mb-4 La economía colaborativa representa un cambio profundo en cómo las personas y empresas interactúan con bienes, servicios y recursos. Este modelo, centrado en el intercambio y uso conjunto de recursos mediante plataformas tecnológicas, optimiza el acceso a bienes y promueve la sostenibilidad. Más que una alternativa al consumo tradicional, aborda problemas como el acceso desigual a bienes, el desperdicio y la sobreexplotación de recursos naturales. Por ejemplo, plataformas como BlaBlaCar y Uber reducen costos individuales y emisiones de carbono al compartir vehículos, maximizando el uso de recursos infrautilizados.
+    h2 Beneficios de la economía colaborativa
+    p.mb-4 La economía colaborativa se ha consolidado como un modelo que transforma la manera de acceder y utilizar bienes y servicios, generando beneficios significativos tanto para las personas como para el entorno.
+
+    ImagenInfografica.color-secundario.mb-4
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/unidad/img-32.png', alt='Texto que describa la imagen')
+
+      .tarjeta.bg-white.p-4(x="9.3%" y="26%" numero="+")
+        .h5.mb-2 Optimización de recursos
+        p El acceso reemplaza la propiedad, promoviendo el alquiler y la compartición. Por ejemplo, un automóvil compartido tiene un uso más eficiente.
+      .tarjeta.bg-white.p-4(x="29.6%" y="13.8%" numero="+")
+        .h5.mb-2 Democratización del acceso
+        p Permite disfrutar de bienes y servicios a costos reducidos, sin necesidad de poseerlos.
+      .tarjeta.bg-white.p-4(x="50%" y="0%" numero="+")
+        .h5.mb-2 Sostenibilidad
+        p Al reducir la producción y prolongar el uso de bienes, se genera un impacto positivo en el medio ambiente.
+      .tarjeta.bg-white.p-4(x="70.3%" y="13.8%" numero="+")
+        .h5.mb-2 Impacto social
+        p Fomenta comunidades colaborativas basadas en confianza, solidaridad y cooperación.
+      .tarjeta.bg-white.p-4(x="90.6%" y="26%" numero="+")
+        .h5.mb-2 Oportunidades empresariales
+        p Estimula emprendimientos sostenibles, como plataformas para vender o intercambiar bienes usados.
+
+    p.mb-4 La siguiente tabla presenta una visión general de los beneficios y retos de la economía colaborativa.
+    p.mb-4 <b>Tabla 1.</b> Beneficios y retos de la economía colaborativa
+
+    .row.mb-4
+      .col-12.col-md-10.mx-auto
+
+        .tabla-a.mb-5
+          table
+            thead
+              tr
+                th.bg-verde-oscuro.text-white.text-center Beneficios
+                th.bg-verde-oscuro.text-white.text-center Retos
+            tbody
+              tr
+                td.bg-verde-claro.text-center.border-bottom Democratización del acceso a bienes y servicios 
+                td.bg-verde-claro.text-center.border-bottom Regulaciones insuficientes en varios países
+              tr
+                td.bg-verde-claro.text-center.border-bottom Reducción de desperdicio y sobreproducción
+                td.bg-verde-claro.text-center.border-bottom Sostenibilidad económica de las plataformas
+              tr
+                td.bg-verde-claro.text-center.border-bottom Promoción de la sostenibilidad ambiental
+                td.bg-verde-claro.text-center.border-bottom Competencia desleal con modelos tradicionales
+              tr
+                td.bg-verde-claro.text-center.border-bottom Creación de comunidades colaborativas
+                td.bg-verde-claro.text-center.border-bottom Seguridad y confianza entre usuarios
+              tr
+                td.bg-verde-claro.text-center.border-bottom Fomento del emprendimiento sostenible
+                td.bg-verde-claro.text-center.border-bottom Dudas sobre derechos laborales y protección
+
+    .bg-fondo-3.bg-full-width
+      .px-5.pb-md-3.py-4
+        
+        h2 Elementos clave y desafíos
+        p.mb-4 La economía colaborativa se sustenta en elementos clave que facilitan su funcionamiento y relevancia en la sociedad actual.
+        .row.mb-4.justify-content-center 
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-right")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-33.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Tecnología
+              p.px-1.text-small.mb-0.d-flex.text-center Las plataformas digitales permiten conexiones eficientes y transparentes entre usuarios y proveedores. Herramientas como la inteligencia artificial y el blockchain mejoran la seguridad y eficiencia de las transacciones. 
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-up")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-34.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Confianza
+              p.px-1.text-small.mb-0.d-flex.text-center Elemento fundamental para las transacciones entre individuos, fomentado por sistemas de calificaciones, reseñas y perfiles verificables. 
+          .col-10.col-md-8.col-lg-6.col-xl-4.mb-4.mb-xl-0(data-aos="fade-left")
+            .custom-image-card.d-flex.flex-column.p-4.py-md-5.h-100
+              img.mx-auto.mb-4(src='@/assets/curso/unidad/img-35.svg', style="width: 80px")
+              p.text-bold.mb-4.text-center Impacto cultural
+              p.px-1.text-small.mb-0.d-flex.text-center Redefine las nociones tradicionales de éxito y propiedad, priorizando experiencias sobre posesiones materiales.
+          
+    h2 Retos principales
+    p.mb-4 La economía colaborativa enfrenta retos significativos que deben ser abordados para garantizar su sostenibilidad y equidad.
+    .row.mb-4
+      .col-6.col-md-5.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-up")
+        .bg-azul.p-4.mb-0.text-center
+          p.text-bold.mb-0 Regulación
+        .bg-azul-claro.p-4.text-center.h-100
+          span.text-center Ajustar las leyes a las particularidades de este modelo.
+      .col-6.col-md-5.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-up")
+        .bg-rojo.p-4.mb-0.text-center
+          p.text-bold.mb-0 Sostenibilidad económica
+        .bg-rojo-claro.p-4.text-center.h-100
+          span.text-center Lograr equilibrio entre atraer usuarios y monetizar servicios.
+      .col-6.col-md-5.col-xl-4.mx-auto.d-flex.flex-column(data-aos="fade-up")
+        .bg-amarillo.p-4.mb-0.text-center
+          p.text-bold.mb-0 Transformación del mercado laboral
+        .bg-amarillo-claro.p-4.text-center.h-100
+          span.text-center Asegurar seguridad y derechos para trabajadores en economías colaborativas.
+
+    p.mb-4 La economía colaborativa redefine cómo interactuamos con los recursos y entre nosotros, ofreciendo un camino hacia un futuro más equitativo y sostenible. Impulsada por la tecnología y valores de cooperación, este modelo no solo responde a necesidades actuales, sino que también transforma las dinámicas culturales y económicas.
+    
+    .row.mb-5
+      .col-12.col-md-10.col-lg-8.mx-auto(data-aos="fade-up")
+
+        .rounded.shadow.p-3.py-lg-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-4.col-sm-3.col-lg-2
+              img(src="@/assets/componentes/link-icon-circle.svg")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  p.text-bold.mb-3 Economía colaborativa
+                  p.text-small Para profundizar en la economía colaborativa, se recomienda consultar el siguiente recurso:
+                .col-sm-auto
+                  a.download-btn.boton.bg-azul-2.text-white(href="" target="_blank")
+                    span.text-small Ir al sitio
+                    i.fas.fa-arrow-right
+
 
 </template>
 
