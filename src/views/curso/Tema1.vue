@@ -156,7 +156,7 @@
         TarjetaAudio.color-primario.bg-white.mb-3(
               texto="Proceso de descarga de Estructura estratégica del plan de negocio"
               tiempo
-              :audio="require('../../assets/componentes/audios/audio-ej.mp3')"
+              :audio="require('../../assets/componentes/audios/Podcast_contenido_unidad_III_Emprendimiento empresarial.mp3')"
               @audio-hover="mostrarIndicadorTarjetaAudio = false"
         )
 
@@ -232,7 +232,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Relación entre modelo y plan de negocio en el emprendimiento
           p.mb-5 Lo invitamos a explorar el documento titulado Relación entre modelo y plan de negocio en el emprendimiento , donde se analiza cómo estas herramientas trabajan de forma complementaria para transformar ideas en proyectos viables y escalables. Este documento destaca la importancia de estructurar una propuesta de valor clara, detallar estrategias prácticas y adaptarse a los cambios del mercado, fortaleciendo la credibilidad y el éxito del emprendimiento.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Relación entre modelo y plan de negocio en el emprendimiento.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Relación entre modelo y plan de negocio en el emprendimiento.
              

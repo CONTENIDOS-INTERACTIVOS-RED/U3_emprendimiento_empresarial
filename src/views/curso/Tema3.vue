@@ -265,7 +265,7 @@
         .col-12.col-xl-7.d-flex.pe-4.pe-xl-5.align-items-center.flex-column(data-aos="fade-right")
           h2.mb-4.pb-2.me-auto Rentabilidad del emprendimiento social
           p.mb-5 Lo invitamos a leer el documento titulado Rentabilidad del emprendimiento social, donde se exploran estrategias clave para equilibrar el propósito social y la sostenibilidad económica. Este documento analiza factores como diversificación de ingresos, eficiencia operativa y financiamiento de impacto, ofreciendo herramientas prácticas para maximizar el alcance y el impacto positivo de las iniciativas sociales.
-          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/.pdf')" target="_blank")
+          a.d-flex.me-auto.w-fit.bg-white.box-shadow.cursor-pointer(data-aos="zoom-in" :href="obtenerLink('/downloads/Anexos_Rentabilidad del emprendimiento social.pdf')" target="_blank")
             img.h-100(style="width: 48px" src='@/assets/componentes/pdf-icon-square.svg', alt='Texto que describa la imagen')
             p.text-small.fs-14px.my-auto.px-2 <strong>Anexo.</strong> Rentabilidad del emprendimiento social
              

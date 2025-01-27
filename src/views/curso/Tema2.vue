@@ -267,7 +267,7 @@
                   p.text-bold.mb-3 Economía colaborativa
                   p.text-small Para profundizar en la economía colaborativa, se recomienda consultar el siguiente recurso:
                 .col-sm-auto
-                  a.download-btn.boton.bg-azul-2.text-white(href="" target="_blank")
+                  a.download-btn.boton.bg-azul-2.text-white(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/269989" target="_blank")
                     span.text-small Ir al sitio
                     i.fas.fa-arrow-right
 
